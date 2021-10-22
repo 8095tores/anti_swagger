@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "bsl",
+			"args": [
+				"/c",
+				"1testrunner",
+				"-runall",
+				"${workspaceRoot}/tests"
+			],
+			"problemMatcher": [
+				"$OneScript Linter"
+			],
+			"label": "cmd: 1testrunner: Testing project"
+		}
+	]
+}
