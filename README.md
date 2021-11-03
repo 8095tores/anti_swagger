@@ -49,7 +49,7 @@
   --pt, --postman       Спецификация из postman (по умолчанию false)
 ```
 
-### Пример использования
+#### Живая команда
 
 ```
 anti_swagger convert .\examples\OpenAPISpecicification.json to_cfe OAS2CFE .\examples\OAS2CFE.cfe
@@ -62,10 +62,10 @@ anti_swagger convert .\examples\OpenAPISpecicification.json to_cfe OAS2CFE .\exa
  ```
  opm build .
 
- opm install ./anti_swagger-0.0.5.ospx
+ opm install ./anti_swagger-0.0.6.ospx
  ```
 
- ### Установка из хаба пакетов
+ ### Установка из хаба
 
 ```
 opm install anti_swagger
@@ -78,7 +78,3 @@ opm install anti_swagger
 - Реализовать поддержку коллекций Postman для создания кода 1С
 - Реализовать поддержку OAS в формате yaml
 - Реализовать поддержку OAS 2.0 и SWAGGER
-
-
-
-
