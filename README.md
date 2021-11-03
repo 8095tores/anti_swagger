@@ -2,13 +2,13 @@
 
 ## Назначение
 
-Трансформация [`OAS`] (https://swagger.io/specification/) в файл расширения для 1С с использованием best practices проектирования систем.
+Трансформация [`OAS`](https://swagger.io/specification/) в файл расширения для 1С с использованием best practices проектирования систем.
 
 Может испольоваться для поднятия mock-серверов на 1С. 
 
  ## Принцип работы
 
-Проект ainti_swagger представляет собой консольное приложение на основе бибилотеки [`cli`] (https://github/khorevaa/cli).
+Проект ainti_swagger представляет собой консольное приложение на основе бибилотеки [`cli`](https://github/khorevaa/cli).
 
 Также созможно использовать в виде бибилиотеки для разработки своих приложений (что пока кажется маловероятным).
 
@@ -32,8 +32,6 @@
 ```
 
 ```
-`anti_swagger convert .\examples\OpenAPISpecicification.json to_cfe OAS2CFE .\examples\OAS2CFE.cfe`
-
 Команда: c, convert
  Конвертация из OAS в код 1С
 
@@ -49,6 +47,12 @@
   -t, --tempdir         Путь к каталогу временных файлов
   -p, --platform        Версия платформы
   --pt, --postman       Спецификация из postman (по умолчанию false)
+```
+
+### Пример использования
+
+```
+anti_swagger convert .\examples\OpenAPISpecicification.json to_cfe OAS2CFE .\examples\OAS2CFE.cfe
 ```
 
  ## Cборка и установка
